@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\TreeMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|solutionrelative:TreeMapCA\\TreeMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|solutionrelative:TreeMapCA\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|solutionrelative:TreeMapCA\\BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|solutionrelative:TreeMapCA\\BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\TreeMapCA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1EBC9245-6DE2-49CC-AF3F-DC975B9B1432}|TreeMapCA\\TreeMapCA.vcxproj|solutionrelative:TreeMapCA\\TreeMapCA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entity.h",
+              "DocumentMoniker": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\Entity.h",
+              "RelativeDocumentMoniker": "TreeMapCA\\Entity.h",
+              "ToolTip": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\Entity.h",
+              "RelativeToolTip": "TreeMapCA\\Entity.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T16:26:54.632Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TreeMap.h",
+              "DocumentMoniker": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\TreeMap.h",
+              "RelativeDocumentMoniker": "TreeMapCA\\TreeMap.h",
+              "ToolTip": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\TreeMap.h",
+              "RelativeToolTip": "TreeMapCA\\TreeMap.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T16:49:33.585Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BSTNode.h",
+              "DocumentMoniker": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\BSTNode.h",
+              "RelativeDocumentMoniker": "TreeMapCA\\BSTNode.h",
+              "ToolTip": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\BSTNode.h",
+              "RelativeToolTip": "TreeMapCA\\BSTNode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T15:31:51.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BinaryTree.h",
+              "DocumentMoniker": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\BinaryTree.h",
+              "RelativeDocumentMoniker": "TreeMapCA\\BinaryTree.h",
+              "ToolTip": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\BinaryTree.h",
+              "RelativeToolTip": "TreeMapCA\\BinaryTree.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T15:30:50.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TreeMapCA.cpp",
+              "DocumentMoniker": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\TreeMapCA.cpp",
+              "RelativeDocumentMoniker": "TreeMapCA\\TreeMapCA.cpp",
+              "ToolTip": "C:\\Users\\Johnc\\source\\repos\\TreeMapCA\\TreeMapCA\\TreeMapCA.cpp",
+              "RelativeToolTip": "TreeMapCA\\TreeMapCA.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T15:29:54.897Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
