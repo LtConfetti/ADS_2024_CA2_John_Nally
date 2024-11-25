@@ -2,19 +2,66 @@
 //
 
 #include <iostream>
+#include "BinaryTree.h"
+#include "TreeMap.h"
+#include <fstream>
+#include <sstream>
+#include <string>
+#include "BSTNode.h"
+
+using namespace std;
+
+
+TreeMap<char, BinaryTree<string>>
+
+FileBreakdown() {
+    TreeMap<char, BinaryTree<string>> words;
+    ifstream in("Pepsi.txt");
+    if (in) {
+        string word = " ";
+        while (getline(in, word, ' ')) {
+            if (!words.containsKey(word[0])) {
+                words.put(word[0], BinaryTree<string>());
+            }
+            words.get(word[0]).add(word);
+        }
+    }
+    return words;
+}
+
+void printNode(BSTNode<string>* node) {
+    if (node->getLeft() != nullptr) {
+        printNode(node->getLeft());
+    }
+    cout << node->getItem() << ", ";
+        if (node->getRight() != nullptr) {
+            printNode(node->getRight());
+        }
+}
+
+
+void printNode(BSTNode<Entity<char, BinaryTree<string>>>* node) {
+    if (node->getLeft() != nullptr) {
+        printNode(node->getLeft());
+    }
+    cout << node->getItem().key << ": ";
+    printNode(node->getItem().value.root);
+    cout << endl;
+    if (node->getRight() != nullptr) {
+        printNode(node->getRight());
+    }
+}
+
+
+void printTreeMap(TreeMap<char, BinaryTree<string>>& map) {
+    printNode(map.tree.root);
+
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    TreeMap<char, BinaryTree<string>> printing = FileBreakdown();
+
+    printTreeMap(printing);
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

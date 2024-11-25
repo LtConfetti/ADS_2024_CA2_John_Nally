@@ -4,6 +4,8 @@
 
 template <class K, class V>
 class TreeMap {
+public:
+
 	BinaryTree<Entity<K, V>> tree;
 	
 	void clear();
@@ -54,8 +56,9 @@ inline bool TreeMap<K, V>::containsKey(K key)
 template<class K, class V>
 inline V& TreeMap<K, V>::get(K key)
 {
+	Entity<K, V> getItems(key);
 
-	// TODO: insert return statement here
+	return tree.get(getItems).value; 
 }
 
 template<class K, class V>
@@ -80,11 +83,13 @@ inline int TreeMap<K, V>::size()
 template<class K, class V>
 inline bool TreeMap<K, V>::removeKey(K key)
 {
-	return false;
+	Entity<K, V> removeItems(key);
+
+	return tree.remove(removeItems);
 }
 
 template<class K, class V>
 inline V& TreeMap<K, V>::operator[](K key)
 {
-	// TODO: insert return statement here
+	return get(key);
 }
